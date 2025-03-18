@@ -1,46 +1,60 @@
-/* Style for navigation bar */
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
 nav {
-    background-color: darkblue;
+    background-color: #333;
     padding: 10px;
     text-align: center;
 }
 
-/* Style for navigation links */
 nav a {
     color: white;
     text-decoration: none;
-    padding: 10px 20px;
-    display: inline-block;
-    font-size: 18px;
+    margin: 0 15px;
 }
 
-/* Change link color on hover */
-nav a:hover {
-    background-color: white;
-    color: darkblue;
-}
-
-/* Style for heading (h1) */
-h1 {
-    color: darkblue;
-    text-align: center;
-    margin-top: 20px;
-}
-
-/* Style for paragraphs */
-p {
-    padding: 10px;
-    text-align: center;
-    font-size: 18px;
-}
-
-/* Style for images */
-img {
+/* Main Image Styling */
+main img {
     display: block;
+    margin: 10px auto;
     width: 150px;
     height: auto;
-    border: 2px solid black;
-    padding: 5px;
-    box-shadow: 0 0 15px gray;
+}
+
+/* Aside Section */
+aside {
+    width: 300px;
     margin: 20px auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Aside Image */
+aside img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Paragraph Styling */
+p {
+    padding: 0;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    border-top: 2px solid #ddd;
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
 }
