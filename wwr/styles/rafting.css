@@ -1,0 +1,148 @@
+/* Global CSS variables */
+:root {
+    --primary-color: #0044cc;
+    --secondary-color: #0088cc;
+    --text-color: #333;
+    --background-color: #f4f4f4;
+    --hero-text-color: #fff;
+}
+
+/* Basic Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--primary-color);
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    background-color: var(--primary-color);
+}
+
+header img {
+    height: 50px;
+}
+
+/* Navigation */
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.hero img.hero-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--hero-text-color);
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+/* Hero Article */
+.hero article {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    color: #fff;
+    width: 40%;
+    text-align: left;
+}
+
+.hero article img {
+    float: right;
+    width: 100px;
+    height: auto;
+    margin-left: 20px;
+}
+
+/* History Section */
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+/* Adventure Section */
+.rafting-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.rafting-images img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+/* Social Media Links */
+.social-media a {
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-media a i {
+    color: #fff;
+    transition: transform 0.3s ease;
+}
+
+.social-media a i:hover {
+    transform: scale(1.2);
+}
