@@ -1,0 +1,46 @@
+/* Style for navigation bar */
+nav {
+    background-color: darkblue;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style for navigation links */
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 18px;
+}
+
+/* Change link color on hover */
+nav a:hover {
+    background-color: white;
+    color: darkblue;
+}
+
+/* Style for heading (h1) */
+h1 {
+    color: darkblue;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style for paragraphs */
+p {
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Style for images */
+img {
+    display: block;
+    width: 150px;
+    height: auto;
+    border: 2px solid black;
+    padding: 5px;
+    box-shadow: 0 0 15px gray;
+    margin: 20px auto;
+}

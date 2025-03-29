@@ -1,0 +1,35 @@
+**Whitewater Rafting Website - Logo and Style Guide**
+
+**1. Logo Selection**
+- The selected logo is from the official repository:
+  ![Whitewater Rafting Logo](https://byui-cse.github.io/wdd130-ww-course/resources/images/logos/z-wwr-oars.png)
+
+---
+
+**2. Color Scheme**
+Below are the selected colors for the website:
+
+- **Primary Color:** #1E3D58  
+- **Secondary Color:** #F2A541  
+- **Accent1 Color:** #E94F37  
+- **Accent2 Color:** #2A9D8F  
+
+**Coolors.co Palette URL:** [https://coolors.co/1e3d58-f2a541-e94f37-2a9d8f](https://coolors.co/1e3d58-f2a541-e94f37-2a9d8f)
+
+---
+
+**3. Typography Selection**
+The selected fonts for the website:
+
+- **Heading Font:** Montserrat  
+- **Text Font:** Open Sans  
+
+---
+
+**4. Style Guide Considerations**
+- The selected color palette and fonts align with the adventurous and energetic theme of whitewater rafting.
+- The colors provide strong contrast and visibility for readability and aesthetic appeal.
+- The typography choices ensure clarity and engagement, suitable for headings and body text.
+
+
+
