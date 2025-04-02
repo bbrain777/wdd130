@@ -1,0 +1,32 @@
++-------------------------------------------------------------------------------------+
+|                                     HEADER                                          |
+|  [Logo]    Rafting Adventures            Home | About | Trips | Contact (active)    |
++-------------------------------------------------------------------------------------+
+|                               Contact Us Header                                     |
+|                     "Contact Us" (title) and a tagline describing the page          |
++-------------------------------------------------------------------------------------+
+|                                   MAIN CONTENT                                      |
+|  +--------------------------+-----------------------------+                         |
+|  |      Company Info        |       Contact Form          |                         |
+|  |                          |                             |                         |
+|  |  - Address               |  - Your Name                |                         |
+|  |  - Phone                 |  - Your Email               |                         |
+|  |  - Email                 |                             |                         |
+|  |  - Embedded Google Map   |  - Inquiry Purpose          |                         |
+|  |    (styled via CSS)      |     (radio buttons):        |                         |
+|  |                          |       * General Inquiry     |                         |
+|  |                          |       * Reservation         |                         |
+|  |                          |       * Website Suggestion  |                         |
+|  |                          |                             |                         |
+|  |                          |  - Message (textarea)       |                         |
+|  |                          |  - Newsletter Checkbox      |                         |
+|  |                          |  - Submit Button            |                         |
+|  +--------------------------+-----------------------------+                         |
++-------------------------------------------------------------------------------------+
+|                             Employee Profiles Section                               |
+|    [Employee 1: Image + Caption]   [Employee 2: Image + Caption]  [Employee 3: ...] |
++-------------------------------------------------------------------------------------+
+|                                     FOOTER                                          |
+|  Footer Columns:  Reach Us | Company | Legal | Quick Links | Newsletter             |
+|  + Link to Contact Us Wireframe image (contact.html only)                           |
++-------------------------------------------------------------------------------------+

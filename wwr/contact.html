@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contact Rafting Adventures for inquiries, reservations, or website suggestions." />
+  <meta name="author" content="Olakunle Obademi" />
+  <title>Contact Us | Rafting Adventures</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <!-- Link to CSS -->
+  <link rel="stylesheet" href="styles/rafting.css" />
+</head>
+<body>
+  <!-- HEADER (same as about.html) -->
+  <header>
+    <div class="logo">
+      <img src="images/logo.png" alt="Rafting Logo" id="logo" />
+    </div>
+    <h1>Rafting Adventures</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="trips.html">Trips</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main>
+    <!-- Company Information Section -->
+    <section class="company-info">
+      <h2>Contact Information</h2>
+      <p>If you have questions or need more information about our rafting adventures, feel free to contact us.</p>
+      <div class="info-details">
+        <p><i class="fas fa-map-marker-alt"></i> 40 Stainsby Street,Stocton on tees, United Kindom TS176HP</p>
+        <p><i class="fas fa-phone"></i> +447307339657</p>
+        <p><i class="fas fa-envelope"></i> olakunleobademi@byupat.org</p>
+      </div>
+      <!-- Embedded Google Map (no inline style; styled in CSS) -->
+      <div class="map-container">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434508616!2d-122.41941568468169!3d37.77492917975921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7e2d8e0a72f5%3A0x2e4c3d842eb0b7a4!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1618862110199!5m2!1sen!2sus" 
+          allowfullscreen="" 
+          loading="lazy">
+        </iframe>
+      </div>
+    </section>
+
+    <!-- Employee Profiles Section -->
+    <section class="employee-profiles">
+      <h2>Meet Our Team</h2>
+      <div class="profiles">
+        <figure>
+          <img src="images/employee1.jpg" alt="John Doe - Manager" />
+          <figcaption>John Doe - Manager</figcaption>
+        </figure>
+        <figure>
+          <img src="images/employee2.jpg" alt="Jane Smith - Guide" />
+          <figcaption>Jane Smith - Guide</figcaption>
+        </figure>
+        <figure>
+          <img src="images/employee3.jpg" alt="Mike Johnson - Support" />
+          <figcaption>Mike Johnson - Support</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-form">
+      <h2>Send Us a Message</h2>
+      <form action="#" method="post">
+        <!-- User's Name -->
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <!-- User's Email -->
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <!-- Inquiry Purpose using Radio Buttons -->
+        <fieldset>
+          <legend>Purpose of Message:</legend>
+          <label><input type="radio" name="inquiry" value="general" required /> General Inquiry</label>
+          <label><input type="radio" name="inquiry" value="reservation" /> Reservation Question</label>
+          <label><input type="radio" name="inquiry" value="website" /> Website Suggestion</label>
+        </fieldset>
+
+        <!-- Message Textarea -->
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <!-- Newsletter Checkbox -->
+        <label class="newsletter-check">
+          <input type="checkbox" name="subscribe" />
+          Please subscribe me to the monthly newsletter
+        </label>
+
+        <!-- Submit Button -->
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- FOOTER (same as about.html, plus the wireframe link) -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">
+        <h2>Rafting Adventures</h2>
+      </div>
+      <div class="footer-columns">
+        <div class="footer-column">
+          <h3>Reach Us</h3>
+          <p>+447307339657</p>
+          <p>oobademi@byupathway.org</p>
+          <p>40 Stainsby Street,Stocton on tees, United Kindom TS176HP</p>
+        </div>
+        <div class="footer-column">
+          <h3>Company</h3>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Legal</h3>
+          <ul>
+            <li><a href="#">Terms &amp; Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Downloads</a></li>
+          </ul>
+        </div>
+        <div class="footer-column newsletter">
+          <h3>Join Our Newsletter</h3>
+          <p>Get weekly updates</p>
+          <div class="newsletter-box">
+            <input type="email" placeholder="Enter your email..." required />
+            <button type="submit">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Rafting Adventures | Designed by Olakunle Obademi</p>
+      <!-- Link to the Contact Us wireframe image (only on contact.html) -->
+      <p><a href="images/contact-us-wireframe.png">View Contact Us Wireframe</a></p>
+    </div>
+  </footer>
+</body>
+</html>
